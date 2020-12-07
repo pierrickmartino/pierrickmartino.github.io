@@ -10,7 +10,8 @@ const RESOURCES = {
 "assets/asset/font/Manrope-Medium.ttf": "c3d6021324dcacb6b2ec29785cb5f588",
 "assets/asset/font/Manrope-Regular.ttf": "4483dc803501b1c0fe5335a9143e710e",
 "assets/asset/font/Manrope-SemiBold.ttf": "7426a6fa7a637b0958b58280357b40f2",
-"assets/AssetManifest.json": "c402953ee89eafa2d85bdc156287dcc4",
+"assets/asset/images/person.png": "c7ed75c0fc451352ade741e05ad72bc8",
+"assets/AssetManifest.json": "645ceacd69def43927990d0713aa8b6b",
 "assets/FontManifest.json": "3f4dd810e4b5c21d4ee7c85508612616",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/NOTICES": "00bd6777de68beac292ca961a6763be2",
@@ -30,9 +31,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "fded072e97c2248c364e34681d60e579",
-"/": "fded072e97c2248c364e34681d60e579",
-"main.dart.js": "684e825c84850ff4aef56a595f72389f",
+"index.html": "923ddcba87da1dafae0109680bb87533",
+"/": "923ddcba87da1dafae0109680bb87533",
+"main.dart.js": "72af72e431397ef88ceebcf8c9f38bc1",
 "manifest.json": "f2b4aabb906537cf06de485cc4978a21",
 "version.json": "f1772e8b92f95818fe0e2a5633321c44"
 };
