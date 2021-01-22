@@ -18814,7 +18814,8 @@ _.d=null},
 Xh:function Xh(){},
 Xi:function Xi(a){this.a=a},
 Xj:function Xj(a){this.a=a},
-nu:function nu(a){this.H$=a},
+nu:function nu(a){this.b=3
+this.H$=a},
 ahp:function(a){var s=0,r=P.C(t.H),q
 var $async$ahp=P.x(function(b,c){if(b===1)return P.z(c,r)
 while(true)$async$outer:switch(s){case 0:a.gF().wR(C.DJ)
@@ -64623,38 +64624,39 @@ Q.wa.prototype={
 ai:function(){var s=t.i
 return new Q.N7(H.c(["TRANSACTION_AMOUNT","TRANSACTION_COUNT","TRANSACTION_UNKNOWN_COUNT","TRANSACTION_FREQUENCY_DAILY","TRANSACTION_FREQUENCY_MONTHLY"],s),H.c(["Transactions total amount","Transactions counter","Unknown Transactions counter","Frequency of Transactions per day","Frequency of Transactions per month"],s),C.l)}}
 Q.N7.prototype={
-E:function(a,b){var s,r,q,p,o,n=this,m=null,l={}
-Y.wz(b,!0,t.q5).toString
-l.a=3
-s=t.w
-r=b.J(s).f
-q=n.a
-r=r.a.a<800?q.c.a/15:q.c.a/5
-q=b.J(s).f
-p=n.a
-q=q.a.a<800?p.c.a/15:p.c.a/5
-p=t.e
-o=t.ib
-if(b.J(s).f.a.a<800){s=t.Y
-s=H.c([new T.JO(C.jn,10,C.vs,H.c([E.ahd(L.at("This month",m,m,m,m,m),new Q.abf(l,b),!1),E.ahd(L.at("This year",m,m,m,m,m),new Q.abg(l,b),!1),E.ahd(L.at("All",m,m,m,m,m),new Q.abh(l,b),!0)],s),m)],s)
-C.b.R(s,P.vk(5,m,p).eA(0,new Q.abi(n,b),o))
-s=T.cv(s,C.y,C.v,C.u)
-l=s}else l=T.cv(P.aE(P.vk(5,m,p).eA(0,new Q.abj(n,b),o),!0,o),C.y,C.v,C.u)
-return T.dB(new T.ax(new V.a3(r,0,q,0),l,m),1,m)}}
+E:function(a,b){var s,r,q=this,p=null,o={},n=o.a=Y.wz(b,!0,t.q5).b,m=t.w,l=b.J(m).f,k=q.a
+l=l.a.a<800?k.c.a/15:k.c.a/5
+k=b.J(m).f
+s=q.a
+k=k.a.a<800?s.c.a/15:s.c.a/5
+s=t.e
+r=t.ib
+if(b.J(m).f.a.a<800){m=t.Y
+m=H.c([new T.JO(C.jn,10,C.vs,H.c([E.ahd(L.at("This month",p,p,p,p,p),new Q.abf(o,b),n===1),E.ahd(L.at("This year",p,p,p,p,p),new Q.abg(o,b),n===2),E.ahd(L.at("All",p,p,p,p,p),new Q.abh(o,b),n===3)],m),p)],m)
+C.b.R(m,P.vk(5,p,s).eA(0,new Q.abi(q,b),r))
+m=T.cv(m,C.y,C.v,C.u)
+o=m}else o=T.cv(P.aE(P.vk(5,p,s).eA(0,new Q.abj(q,b),r),!0,r),C.y,C.v,C.u)
+return T.dB(new T.ax(new V.a3(l,0,k,0),o,p),1,p)}}
 Q.abf.prototype={
-$1:function(a){var s=a?1:null
-this.a.a=s
-Y.wz(this.b,!1,t.q5).bl()},
+$1:function(a){var s,r=a?1:null,q=this.a
+q.a=r
+s=Y.wz(this.b,!1,t.q5)
+s.b=q.a
+s.bl()},
 $S:13}
 Q.abg.prototype={
-$1:function(a){var s=a?2:null
-this.a.a=s
-Y.wz(this.b,!1,t.q5).bl()},
+$1:function(a){var s,r=a?2:null,q=this.a
+q.a=r
+s=Y.wz(this.b,!1,t.q5)
+s.b=q.a
+s.bl()},
 $S:13}
 Q.abh.prototype={
-$1:function(a){var s=a?3:null
-this.a.a=s
-Y.wz(this.b,!1,t.q5).bl()},
+$1:function(a){var s,r=a?3:null,q=this.a
+q.a=r
+s=Y.wz(this.b,!1,t.q5)
+s.b=q.a
+s.bl()},
 $S:13}
 Q.abi.prototype={
 $1:function(a){var s=null,r=this.a,q=r.a.c,p=this.b,o=K.a1(p).ch
