@@ -65762,7 +65762,7 @@ q=this.c
 q.toString
 q=R.Dr(q,t.ei).d
 q=q.rJ(0,q.gi6(),t.eL,t.rZ)
-q.e=new K.Gg(20,s)
+q.e=new K.Gg(50,s)
 q=new T.am(new V.a5(r,r,r,0),E.yc(B.aiG(new K.afg(this),q.ep(0),t.kv),s,s,C.l),s)
 r=q}else{r=q.c
 q=r.a/15
@@ -65771,7 +65771,7 @@ r=q}return r}}
 K.afg.prototype={
 $2:function(a,b){var s,r,q,p,o,n,m,l=null,k=b.b
 if(k!=null){s=this.a.a.c
-r=O.aoq(K.W(a).ax.a,new V.uu(K.W(a).ch),l,C.BO,0.2)
+r=O.aoq(K.W(a).ax.a,new V.uu(K.W(a).ch),l,C.BO,0.18)
 q=new K.afc()
 k=J.by(k)
 p=B.axU(C.ry,q,l)
