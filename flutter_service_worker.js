@@ -42,14 +42,14 @@ const RESOURCES = {
 "assets/AssetManifest.json": "96de4fe5146bfa1fe7d06190d6bc3040",
 "assets/FontManifest.json": "70d92f7d5cdc6d47875885c449b58801",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "dee969515671121496a7c512c1fc4580",
+"assets/NOTICES": "c5d3b36630eb5549dc2dde853e281298",
 "assets/packages/line_awesome_icons/assets/fonts/icon_font.ttf": "4d42f5f0c62a8f51e876c14575354a6e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "10e7792b6d817440de4ef53f7579c4da",
-"/": "10e7792b6d817440de4ef53f7579c4da",
-"main.dart.js": "cd2b58851f22ed76f17e3f66128e9476",
+"index.html": "73b30a770b04f89b8145cff4efd6deba",
+"/": "73b30a770b04f89b8145cff4efd6deba",
+"main.dart.js": "46cfa264ab9397184259f71cba4ca4b0",
 "manifest.json": "f2b4aabb906537cf06de485cc4978a21",
 "sql-wasm.js": "04b960431ad6c0314a115558cff07880",
 "sql-wasm.wasm": "ea7edc8cc0702b48cc93bf41e5b6cc61",
@@ -197,7 +197,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey of Object.keys(RESOURCES)) {
+  for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
