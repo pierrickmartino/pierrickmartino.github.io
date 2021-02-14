@@ -63262,14 +63262,17 @@ p=l.a.c
 o=C.w.h(0,100)
 j.push(m)
 if(q<2)j.push(new T.en(k,p.b/20,new Z.IU(1,1,o,k),k))}return j},
-F:function(a,b){var s,r=this,q=null,p=r.a.c,o=t.w,n=b.E(o).f,m=r.a
-n=n.a.a<800?m.c.a/12:m.c.a/5
+F:function(a,b){var s,r,q=this,p=null,o=t.w,n=b.E(o).f,m=q.a
+n=n.a.a<800?m.c.b*0.2:m.c.b*0.4
 m=b.E(o).f
-s=r.a
+s=q.a
 m=m.a.a<800?s.c.a/12:s.c.a/5
+s=b.E(o).f
+r=q.a
+s=s.a.a<800?r.c.a/12:r.c.a/5
 if(b.E(o).f.a.a<800){o=t.ib
-o=T.bs(P.ay(P.Ex(3,t.e).dJ(0,new V.a7W(r,b),o),!0,o),C.r,C.o,C.m)}else{o=r.a.c.b/50
-o=V.afi(new T.a9(new V.a3(0,o,0,o),T.bf(r.Oo(),C.r,C.oH,C.m),q),q,5)}return T.cY(new T.a9(new V.a3(n,p.b*0.4,m,0),o,q),1,q)}}
+o=T.bs(P.ay(P.Ex(3,t.e).dJ(0,new V.a7W(q,b),o),!0,o),C.r,C.o,C.m)}else{o=q.a.c.b/50
+o=V.afi(new T.a9(new V.a3(0,o,0,o),T.bf(q.Oo(),C.r,C.oH,C.m),p),p,5)}return T.cY(new T.a9(new V.a3(m,n,s,0),o,p),1,p)}}
 V.a7Y.prototype={
 $1:function(a){var s=this.a
 s.Y(new V.a7X(s,a,this.b))},
