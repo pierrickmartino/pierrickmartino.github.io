@@ -1,6 +1,6 @@
 {
-    "name": "trip_auth_login",
-    "short_name": "trip_auth_login",
+    "name": "trip_comportemental_analysis",
+    "short_name": "trip_comportemental_analysis",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
