@@ -1,6 +1,6 @@
 {
-    "name": "howmuch",
-    "short_name": "howmuch",
+    "name": "trip_auth_login",
+    "short_name": "trip_auth_login",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

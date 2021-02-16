@@ -3,57 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/asset/font/electrolize/Electrolize-Regular.ttf": "1be3e0aaeb2bbd1985615a49da7f2eaf",
-"assets/asset/font/lato/Lato-Black.ttf": "e631d2735799aa943d93d301abf423d2",
-"assets/asset/font/lato/Lato-Bold.ttf": "85d339d916479f729938d2911b85bf1f",
-"assets/asset/font/lato/Lato-Light.ttf": "2fe27d9d10cdfccb1baef28a45d5ba90",
-"assets/asset/font/lato/Lato-Regular.ttf": "2d36b1a925432bae7f3c53a340868c6e",
-"assets/asset/font/lato/Lato-Thin.ttf": "9a77fbaa85fa42b73e3b96399daf49c5",
-"assets/asset/font/montserrat/Montserrat-Regular.ttf": "ee6539921d713482b8ccd4d0d23961bb",
-"assets/asset/images/africa.jpg": "27fc2c6667bd5bd7bba8117fafe28d86",
-"assets/asset/images/animals.jpg": "2e218a94e7842a946d772082ac8c5590",
-"assets/asset/images/antarctica.jpg": "71e86242fca831839833d1caa23f107e",
-"assets/asset/images/antelope-canyon-457495_1920.jpg": "aa084e213b8e30ddc706e3450d23fd71",
-"assets/asset/images/asia.jpg": "bbcf97c1be29e77360e8407b7e2eaa05",
-"assets/asset/images/australia.jpg": "6170e8a703652c6b814dca7020050086",
-"assets/asset/images/butterfly-5820052_1920.jpg": "7ebfa12f3bf287bf32d57389956639c6",
-"assets/asset/images/butterfly-5952415_1920.jpg": "72b72fa74e1a383f12e9197fe57257d7",
-"assets/asset/images/canyon-1740973_1920.jpg": "f84f69d0e1f4e97c1a43fb434db709aa",
-"assets/asset/images/cover.jpg": "b76379616b118dca67a0e3158f8b4aaf",
-"assets/asset/images/cover_old.jpg": "e1e4b2e46b8d6eabb7330afb0c0d30ff",
-"assets/asset/images/cover_transactions.jpg": "ca9d58ee4267ea160213f00a8280448e",
-"assets/asset/images/europe.jpg": "29a721b78efc7f928faf042c88806468",
-"assets/asset/images/flowers-5820050_1920.jpg": "dbf46919591d0b2982994f8dee85a06f",
-"assets/asset/images/flowers-5839544_1920.jpg": "ebe2fb5e57ad0e0a4172aef71a66d82c",
-"assets/asset/images/flowers-5839553_1920.jpg": "61f07b525c760d6e62455c1dec585ec2",
-"assets/asset/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
-"assets/asset/images/mountain-5678172_1920.jpg": "628ac9675aebd5d6f60093e65d31b526",
-"assets/asset/images/north_america.jpg": "867d729d34a03bf38136bd45954ec218",
-"assets/asset/images/old_cover.jpg": "1f899bc9c3bec2770ee1a088cbd67857",
-"assets/asset/images/old_cover_transactions.jpg": "6f4a647b8474874e054f514b402ce4bb",
-"assets/asset/images/person.png": "c7ed75c0fc451352ade741e05ad72bc8",
-"assets/asset/images/photography.jpeg": "b0d14d6d4a94d33404a7df1344e7533b",
-"assets/asset/images/road-5837403_1920.jpg": "77353ba6df1b820197efbabd37a19ca0",
-"assets/asset/images/south_america.jpg": "1920c86e11a06921b339f00ff1d0ddea",
-"assets/asset/images/trekking.jpg": "283eae13ae9587874b93fed5c9b4a118",
-"assets/asset/images/wallpaper-5911380_1920.jpg": "010e2921f6e66537e22f98f0dfb13df8",
-"assets/asset/images/wallpaper-5911382_1920.jpg": "1eb1bfcb12ac266a7799aa818debfd00",
-"assets/asset/images/wallpaper-5911383_1920.jpg": "00adfacdbba124ba1d7ccc98e0a3174b",
-"assets/AssetManifest.json": "96de4fe5146bfa1fe7d06190d6bc3040",
-"assets/FontManifest.json": "70d92f7d5cdc6d47875885c449b58801",
+  "assets/AssetManifest.json": "9c37c61e2433d988dd409abbd0aad5d3",
+"assets/assets/images/google_logo.png": "b75aecaf9e70a9b1760497e33bcd6db1",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "c5d3b36630eb5549dc2dde853e281298",
-"assets/packages/line_awesome_icons/assets/fonts/icon_font.ttf": "4d42f5f0c62a8f51e876c14575354a6e",
+"assets/NOTICES": "df486d98d322f178d85131616d231578",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "013089b9ef80d7accb144ebb81971022",
-"/": "013089b9ef80d7accb144ebb81971022",
-"main.dart.js": "79a052dc0125cb1df03da8abee25a88d",
-"manifest.json": "f2b4aabb906537cf06de485cc4978a21",
-"sql-wasm.js": "04b960431ad6c0314a115558cff07880",
-"sql-wasm.wasm": "ea7edc8cc0702b48cc93bf41e5b6cc61",
-"version.json": "f1772e8b92f95818fe0e2a5633321c44"
+"index.html": "06a3a6bc5cbff2e89ecd115983e1fd7f",
+"/": "06a3a6bc5cbff2e89ecd115983e1fd7f",
+"main.dart.js": "f03a4c9bab9f7e4218c76efe51e2007d",
+"manifest.json": "61caaae9d762a4764ad10ee2f1ae92f2",
+"version.json": "11c9bc6ae364ace1fb5da71ea66a950b"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -197,7 +160,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
