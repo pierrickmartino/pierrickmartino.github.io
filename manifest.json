@@ -1,6 +1,6 @@
 {
-    "name": "trip_comportemental_analysis",
-    "short_name": "trip_comportemental_analysis",
+    "name": "trip_timeline_ui",
+    "short_name": "trip_timeline_ui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
