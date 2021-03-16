@@ -1,6 +1,6 @@
 {
-    "name": "trip_theme",
-    "short_name": "trip_theme",
+    "name": "trip_setting",
+    "short_name": "trip_setting",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
