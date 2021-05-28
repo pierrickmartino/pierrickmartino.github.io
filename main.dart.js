@@ -53221,7 +53221,8 @@ return s*(C.e.hd(a-1,this.a)+1)-(s-this.d)}}
 B.a7g.prototype={}
 B.JF.prototype={
 E6:function(a){var s=a.x,r=C.d.eq(s/this.a),q=Math.max(0,s-0*(r-1))/r,p=this.e
-return new B.a7j(r,p,q+0,p,q,G.aix(a.y))}}
+if(p==null)p=q/2
+return new B.a7j(r,p+0,q+0,p,q,G.aix(a.y))}}
 B.r8.prototype={
 j:function(a){return"crossAxisOffset="+H.c(this.x)+"; "+this.Tu(0)}}
 B.IQ.prototype={
@@ -53229,7 +53230,7 @@ dT:function(a){if(!(a.d instanceof B.r8))a.d=new B.r8(!1,null,null)},
 sQt:function(a){var s,r=this
 if(r.ar===a)return
 if(H.C(a)===H.C(r.ar)){s=r.ar
-if(s.a===a.a)s=s.e!==a.e
+if(s.a===a.a)s=s.e!=a.e
 else s=!0}else s=!0
 if(s)r.Z()
 r.ar=a},
@@ -74098,7 +74099,7 @@ C.I0=new L.bi("Price",C.ay,null,null,null,null,null,null)
 C.E8=new T.dR(100,null,C.I0,null)
 C.E9=new Q.yy(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.mY=new G.JD(0,0,0,0,0,0,!1,!1,null,0)
-C.Ea=new B.JF(540,270)
+C.Ea=new B.JF(540,null)
 C.Eb=new B.JF(800,350)
 C.Ec=new N.a7p(1,"SmartDashesType.enabled")
 C.Ed=new N.a7q(1,"SmartQuotesType.enabled")
