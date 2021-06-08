@@ -75929,9 +75929,20 @@ return s==null?H.c(H.j("futurePrice")):s},
 ak:function(){this.aE()
 this.d=F.UZ("INIT")
 this.e=F.V_("INIT")},
-H:function(a,b){var s=this,r=null,q=t.D1,p=Q.hl(r,r,B.fz(new F.ajA(),s.uX(s.a.c.a),t.N),r,!1,r,L.aI(s.a.c.a,r,r,r,r,r,r),B.fz(new F.ajB(s),s.gE3(),q)),o=$.F5(),n=t.p,m=T.cg(H.a([L.aI(o.ew(s.a.c.b),r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r),C.bU,L.aI("Amount",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),l=T.cg(H.a([B.fz(new F.ajC(),s.gE3(),q),C.bU,L.aI("MarketPrice",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),k=s.e
-if(k==null)k=H.c(H.j("futureVariation24"))
-return M.aW(r,V.G3(T.cp(H.a([p,new T.aN(C.aK,m,r),new T.aN(C.aK,l,r),new T.aN(C.aK,T.cg(H.a([B.fz(new F.ajD(),k,t.tw),C.bU,L.aI("24hr Var.",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),r),new T.aN(C.aK,T.cg(H.a([L.aI(o.ew(s.a.c.c),r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r),C.bU,L.aI("AvgPurchPrice",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),r),new T.aN(C.aK,T.cg(H.a([L.aI(o.ew(0),r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r),C.bU,L.aI("RealizedGain",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),r),new T.aN(C.aK,T.cg(H.a([B.fz(new F.ajE(s),s.gE3(),q),C.bU,L.aI("UnrealizedGain",r,r,r,A.cL(r,r,P.aa(153,0,0,0),r,r,r,r,r,r,r,r,13,r,r,r,r,!0,r,r,r,r,r,r,r),r,r)],n),C.u,C.w,C.y),r),C.to,C.bU,new K.FV(C.cz,10,10,C.T,H.a([B.qI(P.aa(153,0,0,0),C.uj,20,new F.ajF(s),C.i7,r),B.qI(P.aa(153,0,0,0),C.uo,20,new F.ajG(s,b),C.i7,r)],n),r)],n),C.u,C.w,C.y),C.bG,r),C.k,r,r,r,r,180,r,r,r,r,r)},
+H:function(a,b){var s,r,q=this,p=null,o=t.D1,n=Q.hl(p,p,B.fz(new F.ajA(),q.uX(q.a.c.a),t.N),p,!1,p,L.aI(q.a.c.a,p,p,p,p,p,p),B.fz(new F.ajB(q),q.gE3(),o)),m=$.F5(),l=t.p,k=T.cg(H.a([L.aI(m.ew(q.a.c.b),p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p),C.bU,L.aI("Amount",p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y),j=B.fz(new F.ajC(),q.gE3(),o),i=t.w,h=b.K(i).f.a.a>960?"MarketPrice":"MarketPr."
+h=T.cg(H.a([j,C.bU,L.aI(h,p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y)
+j=q.e
+if(j==null)j=H.c(H.j("futureVariation24"))
+j=T.cg(H.a([B.fz(new F.ajD(),j,t.tw),C.bU,L.aI("24hr Var.",p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y)
+s=L.aI(m.ew(q.a.c.c),p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)
+r=b.K(i).f.a.a>960?"AvgPurchasePrice":"AvgPurchPr."
+r=T.cg(H.a([s,C.bU,L.aI(r,p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y)
+m=L.aI(m.ew(0),p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)
+s=b.K(i).f.a.a>960?"RealizedGain":"Realized"
+s=T.cg(H.a([m,C.bU,L.aI(s,p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y)
+o=B.fz(new F.ajE(q),q.gE3(),o)
+m=b.K(i).f.a.a>960?"UnrealizedGain":"Unrealized"
+return M.aW(p,V.G3(T.cp(H.a([n,new T.aN(C.aK,k,p),new T.aN(C.aK,h,p),new T.aN(C.aK,j,p),new T.aN(C.aK,r,p),new T.aN(C.aK,s,p),new T.aN(C.aK,T.cg(H.a([o,C.bU,L.aI(m,p,p,p,A.cL(p,p,P.aa(153,0,0,0),p,p,p,p,p,p,p,p,13,p,p,p,p,!0,p,p,p,p,p,p,p),p,p)],l),C.u,C.w,C.y),p),C.to,C.bU,new K.FV(C.cz,10,10,C.T,H.a([B.qI(P.aa(153,0,0,0),C.uj,20,new F.ajF(q),C.i7,p),B.qI(P.aa(153,0,0,0),C.uo,20,new F.ajG(q,b),C.i7,p)],l),p)],l),C.u,C.w,C.y),C.bG,p),C.k,p,p,p,p,180,p,p,p,p,p)},
 uX:function(a){return this.a3F(a)},
 a3F:function(a){var s=0,r=P.V(t.N),q,p
 var $async$uX=P.R(function(b,c){if(b===1)return P.S(c,r)
@@ -80439,7 +80450,7 @@ C.Fq=new T.fj(50,null,C.um,null)
 C.Fr=new Q.A9(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.o4=new G.LN(0,0,0,0,0,0,!1,!1,null,0)
 C.Fs=new B.LP(1200,5,390)
-C.Ft=new B.LP(800,0,270)
+C.Ft=new B.LP(700,0,270)
 C.o5=new N.aaK(1,"SmartDashesType.enabled")
 C.o6=new N.aaL(1,"SmartQuotesType.enabled")
 C.Fu=new N.fk("SnackBarClosedReason.dismiss")
