@@ -86048,7 +86048,7 @@ case 1:return P.B(q,r)}})
 return P.C($async$xa,r)}}
 G.av_.prototype={
 $1(a){var s=null,r=a.db,q=this.a,p=t.M7
-return new U.wB(H.a([A.aCa(H.a([E.Rs(!0,C.zx,new G.auV(a),s,r.gl(r),"Show position with zero amount"),new E.iL("Refresh token data",s,C.zF,C.db,C.d6,q.gagA(),s,s,!0,C.fj,s),C.OT],p),"Common"),A.aCa(C.BF,"Account"),A.aCa(H.a([E.Rs(!0,C.zy,new G.auW(q),s,q.d,"Lock app in background"),E.Rs(!0,C.zE,new G.auX(),"Allow application to access stored fingerprint IDs.",!1,"Use fingerprint"),E.Rs(!0,C.zG,new G.auY(),s,!0,"Change password"),E.Rs(q.e,C.zz,new G.auZ(),s,!0,"Enable Notifications")],p),"Security"),new T.M7(T.bU(H.a([new T.bc(C.yt,U.aBi("/images/settings.png",C.mS,s,50,50),s),C.TT],t.p),C.H,C.t,C.u),s,s,s)],t.HB),s)},
+return new U.wB(H.a([A.aCa(H.a([E.Rs(!0,C.zx,new G.auV(a),s,r.gl(r),"Show position with zero amount"),new E.iL("Refresh token data",s,C.zF,C.db,C.d6,q.gagA(),s,s,!0,C.fj,s),C.OT],p),"Common"),A.aCa(C.BF,"Account"),A.aCa(H.a([E.Rs(!0,C.zy,new G.auW(q),s,q.d,"Lock app in background"),E.Rs(!0,C.zE,new G.auX(),"Allow application to access stored fingerprint IDs.",!1,"Use fingerprint"),E.Rs(!0,C.zG,new G.auY(),s,!0,"Change password"),E.Rs(q.e,C.zz,new G.auZ(),s,!0,"Enable Notifications")],p),"Security"),new T.M7(T.bU(H.a([new T.bc(C.yt,U.aBi("images/settings.png",C.mS,s,50,50),s),C.TT],t.p),C.H,C.t,C.u),s,s,s)],t.HB),s)},
 $S:551}
 G.auV.prototype={
 $1(a){this.a.wi(a)},
