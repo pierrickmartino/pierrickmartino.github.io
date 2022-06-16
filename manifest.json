@@ -1,11 +1,11 @@
 {
-    "name": "admin",
-    "short_name": "admin",
+    "name": "web_dashboard",
+    "short_name": "web_dashboard",
     "start_url": ".",
-    "display": "standalone",
+    "display": "minimal-ui",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A desktop-friendly dashboard app",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
